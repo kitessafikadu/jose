@@ -1,3 +1,7 @@
+import crypto
+import sys
+sys.modules['Crypto'] = crypto
+
 import logging
 logger = logging.getLogger(__name__)
 
